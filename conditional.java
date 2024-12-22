@@ -67,3 +67,21 @@
 //         }
 //     }
 // }
+import java.util.*;
+public class conditioanl{
+    public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    int income = sc.nextInt();
+    int tax    = (income*18)/100;
+    int tax2   =(income*9)/100;
+    if(income >= 5,50,000){
+        System.out.println("The income tax is :"tax);
+    }
+    else if(income >= 3,50,000 && income <5,50,000){
+        System.out.println("The income tax is :"tax2);
+    }
+    else{
+        System.out.println("Wow there is no tax");
+    }
+}
+}
