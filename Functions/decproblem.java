@@ -12,6 +12,6 @@ public class decproblem{
         }System.out.println("binary from of " + mynum + "=" + binNum);
     }
     public static void main(String args[]){
-            decTobin(16);
+            decTobin(17);
     }
 }
