@@ -1,6 +1,6 @@
 import java.util.*;
-public class primeinrange{
-      public static boolean isPrime(int n){
+public class primeinrange {
+      public static boolean isPrime(int n) {
         if(n == 2){
             return true;
         }
@@ -9,6 +9,7 @@ public class primeinrange{
             return false;
         }
     }
+}
     
     public static void primeInRange(int n){
        for(int i=2; i<=n; i++) {
@@ -18,6 +19,6 @@ public class primeinrange{
        }System.out.println();
     }
     public static void main(String args[]){
-primeInRange(20);
+     primeInRange(20);
     }
 }
